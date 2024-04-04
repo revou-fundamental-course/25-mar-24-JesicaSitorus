@@ -1,0 +1,46 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    text-align: center;
+  }
+  
+  .container form div {
+    margin-bottom: 10px;
+  }
+  
+  .container form div label {
+    display: inline-block;
+    width: 120px;
+  }
+  
+  .container form div input, .container form div select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .container form div button {
+    padding: 8px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .container form div button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 20px;
+    text-align: center;
+  }
